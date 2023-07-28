@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { server_api } from '../main'
 import Loader from './Loader';
 import { useParams } from 'react-router-dom';
-import ChartBox from './chartBox';
+import ChartBox from './ChartBox';
 import ErrorPage from './ErrorPage';
 
 const Coindetails = () => {
